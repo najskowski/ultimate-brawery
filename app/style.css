@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-blue: rgb(0, 6, 168);
+    --hover-bg: rgb(53, 58, 168);
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+main {
+    width: calc(100vw - 24rem);
+    z-index: -1;
+}
+#wrapper {
+    background: linear-gradient(0deg, var(--bg-blue), transparent 35%);
+    z-index: 1;
+}
+#main_bottom {
+    z-index: 1;
+}
